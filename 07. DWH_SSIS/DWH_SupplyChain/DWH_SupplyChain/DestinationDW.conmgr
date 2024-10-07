@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="DestinationDW"
+  DTS:DTSID="{F70BBE1B-869C-42CB-9BE2-5F25290496E8}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=HARBSKIIIII;Initial Catalog=SupplyChain_DWH;Provider=SQLOLEDB.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-DWH_SupplyChain-{F70BBE1B-869C-42CB-9BE2-5F25290496E8}DESKTOP-CO3Q752.SupplyChain_DWH;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
